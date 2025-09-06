@@ -9,43 +9,63 @@ import { useState } from "react";
 const mockDestinations = [
   {
     id: "1",
-    name: "Bali, Indonesia",
-    location: "Southeast Asia",
-    image: "https://images.unsplash.com/photo-1537953773345-d172ccf13cf1?w=800&h=600&fit=crop",
-    rating: 4.8,
+    name: "Goa",
+    location: "Western India",
+    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop",
+    rating: 4.6,
     safetyLevel: "high" as const,
-    price: "From $899",
-    highlights: ["Beach Paradise", "Cultural Sites", "Yoga Retreats", "Local Cuisine"]
+    price: "From ₹12,000",
+    highlights: ["Beaches", "Portuguese Heritage", "Night Life", "Water Sports"]
   },
   {
     id: "2", 
-    name: "Tokyo, Japan",
-    location: "East Asia",
-    image: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf?w=800&h=600&fit=crop",
-    rating: 4.9,
+    name: "Kerala Backwaters",
+    location: "Southern India",
+    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop",
+    rating: 4.8,
     safetyLevel: "high" as const,
-    price: "From $1,299",
-    highlights: ["Modern City", "Traditional Culture", "Amazing Food", "Tech Hub"]
+    price: "From ₹8,500",
+    highlights: ["Houseboat Stay", "Ayurveda", "Spice Gardens", "Wildlife"]
   },
   {
     id: "3",
-    name: "Cape Town, South Africa",
-    location: "Southern Africa", 
-    image: "https://images.unsplash.com/photo-1580060839134-75a5edca2e99?w=800&h=600&fit=crop",
-    rating: 4.6,
+    name: "Rajasthan",
+    location: "Northwestern India", 
+    image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&h=600&fit=crop",
+    rating: 4.7,
     safetyLevel: "medium" as const,
-    price: "From $749",
-    highlights: ["Table Mountain", "Wine Country", "Wildlife", "History"]
+    price: "From ₹15,000",
+    highlights: ["Royal Palaces", "Desert Safari", "Cultural Heritage", "Folk Music"]
   },
   {
     id: "4",
-    name: "Reykjavik, Iceland",
-    location: "Northern Europe",
-    image: "https://images.unsplash.com/photo-1539066344276-de6245e04c38?w=800&h=600&fit=crop",
-    rating: 4.7,
+    name: "Manali, Himachal Pradesh",
+    location: "Northern India",
+    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&h=600&fit=crop",
+    rating: 4.5,
     safetyLevel: "high" as const,
-    price: "From $1,199",
-    highlights: ["Northern Lights", "Blue Lagoon", "Glaciers", "Volcanic Activity"]
+    price: "From ₹10,000",
+    highlights: ["Mountain Views", "Adventure Sports", "Snow Activities", "Apple Orchards"]
+  },
+  {
+    id: "5",
+    name: "Andaman Islands",
+    location: "Bay of Bengal",
+    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=600&fit=crop",
+    rating: 4.9,
+    safetyLevel: "high" as const,
+    price: "From ₹25,000",
+    highlights: ["Crystal Clear Waters", "Coral Reefs", "Scuba Diving", "Pristine Beaches"]
+  },
+  {
+    id: "6",
+    name: "Ladakh",
+    location: "Northern India",
+    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&h=600&fit=crop",
+    rating: 4.8,
+    safetyLevel: "medium" as const,
+    price: "From ₹18,000",
+    highlights: ["High Altitude Desert", "Buddhist Monasteries", "Adventure Biking", "Pangong Lake"]
   }
 ];
 
