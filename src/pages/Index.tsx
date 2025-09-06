@@ -10,33 +10,33 @@ const Index = () => {
   const featuredDestinations = [
     {
       id: "1",
-      name: "Santorini, Greece",
-      location: "Mediterranean",
-      image: "https://images.unsplash.com/photo-1570077188670-e3a8d69ac5ff?w=800&h=600&fit=crop",
-      rating: 4.9,
+      name: "Goa Beaches",
+      location: "Western India",
+      image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop",
+      rating: 4.8,
       safetyLevel: "high" as const,
-      price: "From $1,599",
-      highlights: ["Sunset Views", "White Architecture", "Wine Tasting", "Volcanic Beaches"]
+      price: "From ₹25,999",
+      highlights: ["Beach Resorts", "Portuguese Architecture", "Nightlife", "Water Sports"]
     },
     {
       id: "2",
-      name: "Kyoto, Japan",
-      location: "East Asia",
-      image: "https://images.unsplash.com/photo-1493976040374-85c8e12f0c0e?w=800&h=600&fit=crop",
-      rating: 4.8,
+      name: "Kerala Backwaters",
+      location: "South India",
+      image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop",
+      rating: 4.9,
       safetyLevel: "high" as const,
-      price: "From $1,399",
-      highlights: ["Temples", "Cherry Blossoms", "Traditional Culture", "Gardens"]
+      price: "From ₹18,999",
+      highlights: ["Houseboat Cruise", "Ayurveda Spas", "Tea Plantations", "Wildlife"]
     },
     {
       id: "3",
-      name: "Banff, Canada",
-      location: "North America",
-      image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop",
+      name: "Rajasthan Heritage",
+      location: "North India",
+      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&h=600&fit=crop",
       rating: 4.7,
       safetyLevel: "high" as const,
-      price: "From $1,199",
-      highlights: ["Mountain Views", "Lakes", "Wildlife", "Hiking"]
+      price: "From ₹22,999",
+      highlights: ["Palace Hotels", "Desert Safari", "Cultural Tours", "Royal Architecture"]
     }
   ];
 

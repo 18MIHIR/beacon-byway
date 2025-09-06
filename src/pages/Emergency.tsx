@@ -5,10 +5,10 @@ import { Badge } from "@/components/ui/badge";
 
 const Emergency = () => {
   const emergencyContacts = [
-    { name: "Local Police", number: "911", type: "police", available: true },
-    { name: "Medical Emergency", number: "911", type: "medical", available: true },
-    { name: "Tourist Police", number: "+1-555-0123", type: "tourist", available: true },
-    { name: "Embassy Support", number: "+1-555-0456", type: "embassy", available: false },
+    { name: "Local Police", number: "100", type: "police", available: true },
+    { name: "Medical Emergency", number: "112", type: "medical", available: true },
+    { name: "Tourist Helpline", number: "1363", type: "tourist", available: true },
+    { name: "Women Helpline", number: "1091", type: "embassy", available: true },
   ];
 
   const recentAlerts = [
