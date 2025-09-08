@@ -2,6 +2,7 @@ import { Shield, Menu, X, Home, Map, AlertTriangle, User, BarChart3 } from "luci
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
+import ThemeToggle from "./ThemeToggle";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -51,6 +52,22 @@ const Navigation = () => {
                 </Link>
               );
             })}
+            
+            {/* Theme Toggle */}
+            <ThemeToggle />
+            
+            {/* Profile Button */}
+            <Button
+              variant="ghost"
+              className="flex items-center gap-2 px-4 py-2 hover:bg-muted text-foreground"
+              onClick={() => {
+                // Authentication functionality requires Supabase
+                alert("Please connect to Supabase for authentication features");
+              }}
+            >
+              <User className="h-4 w-4" />
+              Login
+            </Button>
           </div>
           
           {/* Mobile Menu Button */}

@@ -1,12 +1,15 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import PanicButton from "@/components/PanicButton";
+import ChatBot from "@/components/ChatBot";
 import DestinationCard from "@/components/DestinationCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
-import { Shield, AlertTriangle, MapPin, Users, TrendingUp, Clock } from "lucide-react";
+import { Shield, AlertTriangle, MapPin, Users, ArrowLeft } from "lucide-react";
+import { useNavigate } from "react-router-dom";
 
 const Index = () => {
+  const navigate = useNavigate();
   const featuredDestinations = [
     {
       id: "1",
@@ -66,8 +69,23 @@ const Index = () => {
   return (
     <div className="min-h-screen bg-background">
       <Navigation />
+      
+      {/* Back Button */}
+      <div className="fixed top-20 left-4 z-30">
+        <Button
+          variant="ghost"
+          size="sm"
+          onClick={() => navigate(-1)}
+          className="flex items-center gap-2 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm shadow-soft hover:bg-white dark:hover:bg-gray-800"
+        >
+          <ArrowLeft className="h-4 w-4" />
+          Back
+        </Button>
+      </div>
+      
       <Hero />
       <PanicButton />
+      <ChatBot />
       
       {/* Safety Features */}
       <section className="py-16 bg-muted/30">
