@@ -9,7 +9,7 @@ const ChatBot = () => {
   };
 
   return (
-    <Card className="fixed bottom-24 right-6 z-30 bg-gradient-hero shadow-emergency hover:scale-105 transition-all duration-300 cursor-pointer">
+    <Card className="fixed top-1/2 right-6 z-30 bg-gradient-hero shadow-emergency hover:scale-105 transition-all duration-300 cursor-pointer transform -translate-y-1/2">
       <CardContent className="p-4">
         <Button
           onClick={handleChatBotClick}

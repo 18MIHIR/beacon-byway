@@ -1,7 +1,8 @@
-import { BarChart3, AlertTriangle, Shield, TrendingUp, MapPin, Users, Activity } from "lucide-react";
+import { BarChart3, AlertTriangle, Shield, TrendingUp, MapPin, Users, Activity, Home } from "lucide-react";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { Link } from "react-router-dom";
 
 const Dashboard = () => {
   // Mock data for dashboard
@@ -31,6 +32,19 @@ const Dashboard = () => {
 
   return (
     <div className="min-h-screen bg-background pt-16">
+      {/* Home Button */}
+      <div className="fixed top-20 left-4 z-30">
+        <Link to="/">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="flex items-center gap-2 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm shadow-soft hover:bg-white dark:hover:bg-gray-800"
+          >
+            <Home className="h-4 w-4" />
+            Home
+          </Button>
+        </Link>
+      </div>
       {/* Header */}
       <section className="bg-gradient-hero py-12">
         <div className="container mx-auto px-4">

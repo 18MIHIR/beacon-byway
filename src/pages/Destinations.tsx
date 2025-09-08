@@ -1,10 +1,11 @@
-import { Search, Filter, MapPin, Star } from "lucide-react";
+import { Search, Filter, MapPin, Star, Home } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import DestinationCard from "@/components/DestinationCard";
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
 const mockDestinations = [
   {
@@ -83,6 +84,19 @@ const Destinations = () => {
 
   return (
     <div className="min-h-screen bg-background pt-16">
+      {/* Home Button */}
+      <div className="fixed top-20 left-4 z-30">
+        <Link to="/">
+          <Button
+            variant="ghost"
+            size="sm"
+            className="flex items-center gap-2 bg-white/90 dark:bg-gray-800/90 backdrop-blur-sm shadow-soft hover:bg-white dark:hover:bg-gray-800"
+          >
+            <Home className="h-4 w-4" />
+            Home
+          </Button>
+        </Link>
+      </div>
       {/* Header */}
       <section className="bg-gradient-hero py-16">
         <div className="container mx-auto px-4 text-center">
