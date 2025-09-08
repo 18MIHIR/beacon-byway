@@ -3,9 +3,11 @@ import { Button } from "@/components/ui/button";
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
+import LoginDialog from "./LoginDialog";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isLoginOpen, setIsLoginOpen] = useState(false);
   const location = useLocation();
 
   const navItems = [
@@ -60,15 +62,15 @@ const Navigation = () => {
             <Button
               variant="ghost"
               className="flex items-center gap-2 px-4 py-2 hover:bg-muted text-foreground"
-              onClick={() => {
-                // Authentication functionality requires Supabase
-                alert("Please connect to Supabase for authentication features");
-              }}
+              onClick={() => setIsLoginOpen(true)}
             >
               <User className="h-4 w-4" />
               Login
             </Button>
           </div>
+          
+          {/* Login Dialog */}
+          <LoginDialog open={isLoginOpen} onOpenChange={setIsLoginOpen} />
           
           {/* Mobile Menu Button */}
           <Button
@@ -107,6 +109,19 @@ const Navigation = () => {
                   </Link>
                 );
               })}
+              
+              {/* Mobile Login Button */}
+              <Button
+                variant="ghost"
+                className="w-full justify-start gap-3 h-12 px-4 text-foreground hover:bg-muted"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                  setIsLoginOpen(true);
+                }}
+              >
+                <User className="h-5 w-5" />
+                Login
+              </Button>
             </div>
           </div>
         )}
