@@ -12,9 +12,9 @@ const Index = () => {
   const featuredDestinations = [
     {
       id: "1",
-      name: "Cherrapunji",
+      name: "Cherrapunja",
       location: "Meghalaya, Northeast India",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=800&h=600&fit=crop",
       rating: 4.8,
       safetyLevel: "high" as const,
       price: "From ₹15,999",
@@ -34,7 +34,7 @@ const Index = () => {
       id: "3",
       name: "Aizawl",
       location: "Mizoram, Northeast India",
-      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+      image: "https://images.unsplash.com/photo-1540979388789-6cee28a1cdc9?w=800&h=600&fit=crop",
       rating: 4.7,
       safetyLevel: "high" as const,
       price: "From ₹18,999",
