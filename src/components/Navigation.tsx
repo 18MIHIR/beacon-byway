@@ -27,7 +27,7 @@ const Navigation = () => {
             <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
               <Shield className="h-5 w-5 text-white" />
             </div>
-            <span className="text-xl font-bold text-foreground">SafeTravel</span>
+            <span className="text-xl font-bold text-foreground">Yatra Rakshak</span>
           </Link>
           
           {/* Desktop Navigation */}

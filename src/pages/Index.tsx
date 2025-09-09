@@ -151,7 +151,7 @@ const Index = () => {
               Trusted by Millions
             </h2>
             <p className="text-xl text-white/90">
-              See why travelers worldwide choose SafeTravel for their adventures
+              See why travelers worldwide choose Yatra Rakshak for their adventures
             </p>
           </div>
           
