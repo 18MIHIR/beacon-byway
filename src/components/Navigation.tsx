@@ -4,6 +4,7 @@ import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import ThemeToggle from "./ThemeToggle";
 import LoginDialog from "./LoginDialog";
+import yatraRakshakLogo from "@/assets/yatra-rakshak-logo.png";
 
 const Navigation = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -24,8 +25,12 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-hero rounded-lg flex items-center justify-center">
-              <Shield className="h-5 w-5 text-white" />
+            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-sm">
+              <img 
+                src={yatraRakshakLogo} 
+                alt="Yatra Rakshak Logo" 
+                className="w-8 h-8 object-contain"
+              />
             </div>
             <span className="text-xl font-bold text-foreground">Yatra Rakshak</span>
           </Link>

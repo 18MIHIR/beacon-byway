@@ -13,33 +13,33 @@ const Index = () => {
   const featuredDestinations = [
     {
       id: "1",
-      name: "Goa Beaches",
-      location: "Western India",
-      image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop",
+      name: "Cherrapunji",
+      location: "Meghalaya, Northeast India",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
       rating: 4.8,
       safetyLevel: "high" as const,
-      price: "From ₹25,999",
-      highlights: ["Beach Resorts", "Portuguese Architecture", "Nightlife", "Water Sports"]
+      price: "From ₹15,999",
+      highlights: ["Living Root Bridges", "Wettest Place on Earth", "Waterfalls", "Cave Exploration"]
     },
     {
       id: "2",
-      name: "Kerala Backwaters",
-      location: "South India",
-      image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop",
+      name: "Shillong",
+      location: "Meghalaya, Northeast India",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
       rating: 4.9,
       safetyLevel: "high" as const,
-      price: "From ₹18,999",
-      highlights: ["Houseboat Cruise", "Ayurveda Spas", "Tea Plantations", "Wildlife"]
+      price: "From ₹12,999",
+      highlights: ["Scotland of the East", "Ward's Lake", "Music Scene", "Pine Forest"]
     },
     {
       id: "3",
-      name: "Rajasthan Heritage",
-      location: "North India",
-      image: "https://images.unsplash.com/photo-1477587458883-47145ed94245?w=800&h=600&fit=crop",
+      name: "Aizawl",
+      location: "Mizoram, Northeast India",
+      image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
       rating: 4.7,
       safetyLevel: "high" as const,
-      price: "From ₹22,999",
-      highlights: ["Palace Hotels", "Desert Safari", "Cultural Tours", "Royal Architecture"]
+      price: "From ₹18,999",
+      highlights: ["Hill Station", "Tribal Culture", "Handloom Textiles", "Scenic Views"]
     }
   ];
 

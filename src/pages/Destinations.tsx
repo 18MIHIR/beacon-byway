@@ -10,63 +10,63 @@ import { Link } from "react-router-dom";
 const mockDestinations = [
   {
     id: "1",
-    name: "Goa",
-    location: "Western India",
-    image: "https://images.unsplash.com/photo-1512343879784-a960bf40e7f2?w=800&h=600&fit=crop",
-    rating: 4.6,
+    name: "Cherrapunji",
+    location: "Meghalaya, Northeast India",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    rating: 4.8,
     safetyLevel: "high" as const,
-    price: "From ₹12,000",
-    highlights: ["Beaches", "Portuguese Heritage", "Night Life", "Water Sports"]
+    price: "From ₹15,000",
+    highlights: ["Living Root Bridges", "Wettest Place on Earth", "Waterfalls", "Cave Exploration"]
   },
   {
     id: "2", 
-    name: "Kerala Backwaters",
-    location: "Southern India",
-    image: "https://images.unsplash.com/photo-1602216056096-3b40cc0c9944?w=800&h=600&fit=crop",
-    rating: 4.8,
+    name: "Shillong",
+    location: "Meghalaya, Northeast India",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    rating: 4.9,
     safetyLevel: "high" as const,
-    price: "From ₹8,500",
-    highlights: ["Houseboat Stay", "Ayurveda", "Spice Gardens", "Wildlife"]
+    price: "From ₹12,000",
+    highlights: ["Scotland of the East", "Ward's Lake", "Music Scene", "Pine Forest"]
   },
   {
     id: "3",
-    name: "Rajasthan",
-    location: "Northwestern India", 
-    image: "https://images.unsplash.com/photo-1599661046289-e31897846e41?w=800&h=600&fit=crop",
+    name: "Aizawl",
+    location: "Mizoram, Northeast India",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
     rating: 4.7,
-    safetyLevel: "medium" as const,
-    price: "From ₹15,000",
-    highlights: ["Royal Palaces", "Desert Safari", "Cultural Heritage", "Folk Music"]
+    safetyLevel: "high" as const,
+    price: "From ₹18,000",
+    highlights: ["Hill Station", "Tribal Culture", "Handloom Textiles", "Scenic Views"]
   },
   {
     id: "4",
-    name: "Manali, Himachal Pradesh",
-    location: "Northern India",
-    image: "https://images.unsplash.com/photo-1506197603052-3cc9c3a201bd?w=800&h=600&fit=crop",
-    rating: 4.5,
+    name: "Gangtok",
+    location: "Sikkim, Northeast India",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    rating: 4.8,
     safetyLevel: "high" as const,
-    price: "From ₹10,000",
-    highlights: ["Mountain Views", "Adventure Sports", "Snow Activities", "Apple Orchards"]
+    price: "From ₹16,000",
+    highlights: ["Buddhist Monasteries", "Cable Car Ride", "Himalayan Views", "Organic Food"]
   },
   {
     id: "5",
-    name: "Andaman Islands",
-    location: "Bay of Bengal",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&h=600&fit=crop",
-    rating: 4.9,
+    name: "Kohima",
+    location: "Nagaland, Northeast India",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    rating: 4.6,
     safetyLevel: "high" as const,
-    price: "From ₹25,000",
-    highlights: ["Crystal Clear Waters", "Coral Reefs", "Scuba Diving", "Pristine Beaches"]
+    price: "From ₹20,000",
+    highlights: ["Hornbill Festival", "WWII History", "Naga Heritage", "Traditional Villages"]
   },
   {
     id: "6",
-    name: "Ladakh",
-    location: "Northern India",
-    image: "https://images.unsplash.com/photo-1605640840605-14ac1855827b?w=800&h=600&fit=crop",
-    rating: 4.8,
+    name: "Imphal",
+    location: "Manipur, Northeast India",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop",
+    rating: 4.5,
     safetyLevel: "medium" as const,
-    price: "From ₹18,000",
-    highlights: ["High Altitude Desert", "Buddhist Monasteries", "Adventure Biking", "Pangong Lake"]
+    price: "From ₹14,000",
+    highlights: ["Loktak Lake", "Manipuri Dance", "War Cemetery", "Floating Islands"]
   }
 ];
 

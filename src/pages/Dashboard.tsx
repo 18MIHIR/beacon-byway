@@ -7,18 +7,18 @@ import { Link } from "react-router-dom";
 const Dashboard = () => {
   // Mock data for dashboard
   const alertData = [
-    { id: 1, type: "Monsoon", location: "Kerala Backwaters", severity: "medium", time: "2 hours ago" },
-    { id: 2, type: "Security", location: "Delhi, NCR", severity: "low", time: "4 hours ago" },
-    { id: 3, type: "Health", location: "Mumbai, Maharashtra", severity: "high", time: "6 hours ago" },
-    { id: 4, type: "Traffic", location: "Bangalore, Karnataka", severity: "medium", time: "1 hour ago" },
-    { id: 5, type: "Weather", location: "Manali, Himachal Pradesh", severity: "low", time: "3 hours ago" },
+    { id: 1, type: "Monsoon", location: "Cherrapunji, Meghalaya", severity: "high", time: "1 hour ago" },
+    { id: 2, type: "Landslide", location: "Gangtok, Sikkim", severity: "medium", time: "3 hours ago" },
+    { id: 3, type: "Road Closure", location: "Shillong, Meghalaya", severity: "low", time: "5 hours ago" },
+    { id: 4, type: "Weather", location: "Aizawl, Mizoram", severity: "medium", time: "2 hours ago" },
+    { id: 5, type: "Border Alert", location: "Kohima, Nagaland", severity: "low", time: "4 hours ago" },
   ];
 
   const safetyMetrics = [
-    { label: "Safe Travelers Today", value: "2,847", change: "+18%", trend: "up" },
-    { label: "Active Alerts", value: "12", change: "-25%", trend: "down" },
-    { label: "Emergency Response Time", value: "6.8 min", change: "-12%", trend: "down" },
-    { label: "Coverage States", value: "28", change: "+2%", trend: "up" },
+    { label: "Northeast Travelers Today", value: "1,247", change: "+22%", trend: "up" },
+    { label: "Active Alerts", value: "8", change: "-15%", trend: "down" },
+    { label: "Emergency Response Time", value: "8.2 min", change: "-18%", trend: "down" },
+    { label: "Coverage States", value: "8", change: "+1%", trend: "up" },
   ];
 
   const getSeverityColor = (severity: string) => {
@@ -141,7 +141,7 @@ const Dashboard = () => {
                 <CardHeader>
                   <CardTitle className="flex items-center gap-2">
                     <Shield className="h-5 w-5 text-success" />
-                    India Safety Index
+                    Northeast India Safety Index
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
