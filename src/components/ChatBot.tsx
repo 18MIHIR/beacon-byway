@@ -9,14 +9,14 @@ const ChatBot = () => {
   };
 
   return (
-    <Card className="fixed top-1/2 right-6 z-30 bg-gradient-hero shadow-emergency hover:scale-105 transition-all duration-300 cursor-pointer transform -translate-y-1/2">
-      <CardContent className="p-4">
+    <Card className="fixed bottom-6 right-6 z-30 bg-gradient-hero shadow-emergency hover:scale-105 transition-all duration-300 cursor-pointer">
+      <CardContent className="p-3">
         <Button
           onClick={handleChatBotClick}
-          className="bg-transparent hover:bg-white/10 text-white border-none shadow-none p-2"
+          className="bg-transparent hover:bg-white/10 text-white border-none shadow-none p-2 text-sm"
         >
-          <MessageCircle className="h-6 w-6 mr-2" />
-          <span className="font-medium">Chat Assistant</span>
+          <MessageCircle className="h-4 w-4 mr-1" />
+          <span className="font-medium">Chat</span>
         </Button>
       </CardContent>
     </Card>
