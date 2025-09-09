@@ -1,7 +1,6 @@
 import Navigation from "@/components/Navigation";
 import Hero from "@/components/Hero";
 import PanicButton from "@/components/PanicButton";
-import ChatBot from "@/components/ChatBot";
 import DestinationCard from "@/components/DestinationCard";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
@@ -85,7 +84,6 @@ const Index = () => {
       
       <Hero />
       <PanicButton />
-      <ChatBot />
       
       {/* Safety Features */}
       <section className="py-16 bg-muted/30">
