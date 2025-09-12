@@ -2,7 +2,7 @@ import { Search, MapPin, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
 import { Card } from "@/components/ui/card";
-import heroImage from "@/assets/hero-travel.jpg";
+import heroImage from "@/assets/hero-background.jpg";
 
 const Hero = () => {
   return (
@@ -64,8 +64,8 @@ const Hero = () => {
               <div className="text-white/80">Safe Travelers</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
-              <div className="text-2xl font-bold text-white">150+</div>
-              <div className="text-white/80">Countries Covered</div>
+              <div className="text-2xl font-bold text-white">20+</div>
+              <div className="text-white/80">States Covered</div>
             </div>
             <div className="bg-white/10 backdrop-blur-sm rounded-lg p-4 border border-white/20">
               <div className="text-2xl font-bold text-white">24/7</div>

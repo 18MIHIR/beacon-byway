@@ -159,8 +159,8 @@ const Index = () => {
               <div className="text-white/80">Safe Trips Completed</div>
             </div>
             <div className="text-center">
-              <div className="text-4xl md:text-5xl font-bold text-white mb-2">150+</div>
-              <div className="text-white/80">Countries Covered</div>
+              <div className="text-4xl md:text-5xl font-bold text-white mb-2">20+</div>
+              <div className="text-white/80">States Covered</div>
             </div>
             <div className="text-center">
               <div className="text-4xl md:text-5xl font-bold text-white mb-2">4.2 min</div>
