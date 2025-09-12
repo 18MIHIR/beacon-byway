@@ -25,11 +25,11 @@ const Navigation = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <Link to="/" className="flex items-center gap-2">
-            <div className="w-10 h-10 bg-white rounded-lg flex items-center justify-center shadow-sm">
+            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center shadow-sm">
               <img 
                 src={yatraRakshakLogo} 
                 alt="Yatra Rakshak Logo" 
-                className="w-8 h-8 object-contain"
+                className="w-10 h-10 object-contain"
               />
             </div>
             <span className="text-xl font-bold text-foreground">Yatra Rakshak</span>
